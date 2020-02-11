@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\UriTemplates\OperatorInfo.cs">
+        <Link>OperatorInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\Result.cs">
+        <Link>Result.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\UriTemplate.cs">
+        <Link>UriTemplate.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\UriTemplateConverter.cs">
+        <Link>UriTemplateConverter.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\UriTemplateExtensions.cs">
+        <Link>UriTemplateExtensions.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\UriTemplateTable.cs">
+        <Link>UriTemplateTable.cs</Link>
+      </Compile>
+      <Compile Include="..\UriTemplates\VarSpec.cs">
+        <Link>VarSpec.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\UriTemplates\UriTemplates.csproj">
+        <Link>UriTemplates.csproj</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>

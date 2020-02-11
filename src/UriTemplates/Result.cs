@@ -7,6 +7,8 @@ namespace Tavis.UriTemplates
 {
     public class Result
     {
+        public bool IsTemplated { get; internal set; } = false;
+        
         public bool ErrorDetected { get; set; }
         public List<string> ParameterNames {get;set;}
         private const string _UriReservedSymbols = ":/?#[]@!$&'()*+,;=";
